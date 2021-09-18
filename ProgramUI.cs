@@ -12,16 +12,21 @@ namespace PairedProgrammingGame
     {
         public void Run()
         {
-            string userInput = GetUserInfo();
-            if(userInput == "2")
+            
+            var userInfo = GetUserInfo();
+            string userInput = Continue();
+            if (userInput == "2")
             {
                 return;
             }
             
-            Game();
+            Game(userInfo);
+            
+
+            
         }
 
-        private string GetUserInfo()
+        private UserInfo GetUserInfo()
         {
             UserInfo userInfo = new UserInfo();
             //Name
@@ -38,24 +43,28 @@ namespace PairedProgrammingGame
 
             //Friend Name
             Console.WriteLine($"I bet {userInfo.City} is a lovely place to live!\n" +
-                $"Tell us the name of a close friend");
+                $"Tell us the name of a close friend.");
             userInfo.FriendName = Console.ReadLine();
             Console.Clear();
 
             // Age
             Console.WriteLine($"{userInfo.FriendName} sounds lovely! \n" +
-                $"Tell us your age");
+                $"Tell us your age.");
             userInfo.Age = Int32.Parse(Console.ReadLine());
             Console.Clear();
 
             Console.WriteLine($"{userInfo.Age}? Nice!\n" +
                 $"Thank you for all that info!");
-            Console.Clear();
 
-            //Start of game option
+            return userInfo;
+        }
+
+        private string Continue()
+        {
+            Console.Clear();
             Console.WriteLine("Ready to get started?\n" +
-                "1. Continue\n" +
-                "2. Exit");
+                    "1. Continue\n" +
+                    "2. Exit");
             string userOption = Console.ReadLine();
             var validOption = false;
             while (validOption == false)
@@ -77,8 +86,11 @@ namespace PairedProgrammingGame
             }
             return userOption;
         }
-        private void Game()
+
+
+        private void Game(UserInfo userInfo)
         {
+            
             var hasGun = false;
 
             // var hasFood = false;
@@ -87,7 +99,7 @@ namespace PairedProgrammingGame
 
             Console.Clear();
 
-            Console.WriteLine("Testing game!");
+            Console.WriteLine($"It is a lovely day in the city of {userInfo.City}.");
 
             Console.ReadKey();
         }

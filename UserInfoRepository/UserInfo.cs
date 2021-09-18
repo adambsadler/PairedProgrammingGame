@@ -23,6 +23,5 @@ namespace UserInfoRepository
             Age = age;
         }
 
-
     }
 }

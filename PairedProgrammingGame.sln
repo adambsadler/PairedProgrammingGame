@@ -5,7 +5,7 @@ VisualStudioVersion = 16.0.31624.102
 MinimumVisualStudioVersion = 10.0.40219.1
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "PairedProgrammingGame", "PairedProgrammingGame.csproj", "{1303E3E6-7F3C-4BF8-A5E1-358F7D4D6E77}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "UserInfoRepository", "..\UserInfoRepository\UserInfoRepository.csproj", "{528DEF54-9E73-4D7D-B8B5-E8E3D00E5EE5}"
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "UserInfoRepository", "UserInfoRepository\UserInfoRepository.csproj", "{82260D28-47D6-4974-B126-ECDD74AB3BDE}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -17,10 +17,10 @@ Global
 		{1303E3E6-7F3C-4BF8-A5E1-358F7D4D6E77}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{1303E3E6-7F3C-4BF8-A5E1-358F7D4D6E77}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{1303E3E6-7F3C-4BF8-A5E1-358F7D4D6E77}.Release|Any CPU.Build.0 = Release|Any CPU
-		{528DEF54-9E73-4D7D-B8B5-E8E3D00E5EE5}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
-		{528DEF54-9E73-4D7D-B8B5-E8E3D00E5EE5}.Debug|Any CPU.Build.0 = Debug|Any CPU
-		{528DEF54-9E73-4D7D-B8B5-E8E3D00E5EE5}.Release|Any CPU.ActiveCfg = Release|Any CPU
-		{528DEF54-9E73-4D7D-B8B5-E8E3D00E5EE5}.Release|Any CPU.Build.0 = Release|Any CPU
+		{82260D28-47D6-4974-B126-ECDD74AB3BDE}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{82260D28-47D6-4974-B126-ECDD74AB3BDE}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{82260D28-47D6-4974-B126-ECDD74AB3BDE}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{82260D28-47D6-4974-B126-ECDD74AB3BDE}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE

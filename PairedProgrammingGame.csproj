@@ -51,8 +51,8 @@
     <None Include="App.config" />
   </ItemGroup>
   <ItemGroup>
-    <ProjectReference Include="..\UserInfoRepository\UserInfoRepository.csproj">
-      <Project>{528def54-9e73-4d7d-b8b5-e8e3d00e5ee5}</Project>
+    <ProjectReference Include="UserInfoRepository\UserInfoRepository.csproj">
+      <Project>{82260d28-47d6-4974-b126-ecdd74ab3bde}</Project>
       <Name>UserInfoRepository</Name>
     </ProjectReference>
   </ItemGroup>
