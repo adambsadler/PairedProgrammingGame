@@ -276,7 +276,7 @@ namespace PairedProgrammingGame
                 // you checked the window and ran out grabbing a gym bag...you'll have to ride a bike or go back to get your keys (and die)
                 Console.WriteLine($"You throw open the door to your garage and then slam it shut behind you. Opening up the\n" +
                     $"gym bag that {userInfo.FriendName} left at your house, you find some clean clothes and shoes. \n" +
-                    $"You quickly get dressed as you decide what to do next. You realize you don't have your car keys and" +
+                    $"You quickly get dressed as you decide what to do next. You realize you don't have your car keys and \n" +
                     $"you remember that they were in your pants pocket. The pants currently on the floor in your room.\n" +
                     $"1. Forget the car and grab your bicycle.\n" +
                     $"2. Go back inside and get your car keys.");
