@@ -245,6 +245,7 @@ namespace PairedProgrammingGame
                                     "You throw open the cabinet and knock over a stack of extra toilet paper." + foundMedicine + "\n" +
                                     "You quickly wrap your arm up with a bandage from the kit. Then, you take the medkit with you as\n" +
                                     "you rush down the hall to your garage.");
+                                haveCar = true;
                                 Console.ReadLine();
                             }
                             else
@@ -258,9 +259,9 @@ namespace PairedProgrammingGame
                                     "your hallway. The last thing you feel are their teeth sinking into your flesh. You also swear you hear\n" +
                                     "the soft blast of a trumpet. You are dead. Game Over.");
                                 Console.ReadLine();
+                                return;
                             }
-                            return;
-
+                            break;
                         default:
                             Console.WriteLine(wrongAnswer);
                             userOption2 = Console.ReadLine();
