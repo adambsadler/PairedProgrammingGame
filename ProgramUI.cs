@@ -149,7 +149,6 @@ namespace PairedProgrammingGame
                         Console.ReadLine();
                         break;
                     default:
-                        Console.Clear();
                         Console.WriteLine(wrongAnswer);
                         userOption1 = Console.ReadLine();
                         break;
